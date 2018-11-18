@@ -1,10 +1,10 @@
 /* confdefs.h */
-#define PACKAGE_NAME "Crowdcoin Core"
-#define PACKAGE_TARNAME "crowdcoinbrain"
-#define PACKAGE_VERSION "0.12.3"
-#define PACKAGE_STRING "Crowdcoin Core 0.12.3"
-#define PACKAGE_BUGREPORT "https://github.com/crowdcoinpay/crowdcoin/issues"
-#define PACKAGE_URL "https://crowdcoin.org/"
+#define PACKAGE_NAME "ProtonCash Core"
+#define PACKAGE_TARNAME "protoncashbrain"
+#define PACKAGE_VERSION "0.01"
+#define PACKAGE_STRING "ProtonCash Core 0.01"
+#define PACKAGE_BUGREPORT "https://github.com/MoneroFan/ProtonCash/issues"
+#define PACKAGE_URL "https://protoncash.org/"
 #define HAVE_CXX11 1
 #define STDC_HEADERS 1
 #define HAVE_SYS_TYPES_H 1
