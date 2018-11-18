@@ -1,36 +1,27 @@
-Crowdcoin Core staging tree 0.12.3
+ProtonCash V.0.01
 ===============================
 
-`master:` [![Build Status](https://travis-ci.com/crowdcoinChain/CrowdcoinBrainWallet.svg?branch=master)]
 
-https://www.crowdcoin.org
-
-
-What is Crowdcoin?
+What is ProtonCash?
 ----------------
 
-Crowdcoin is an experimental digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Crowdcoin uses peer-to-peer technology
+ProtonCash is an experimental digital currency that enables anonymous, instant
+payments to anyone, anywhere in the world. ProtonCash uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Crowdcoin Core is the name of the open
+are carried out collectively by the network. ProtonCash Core is the name of the open
 source software which enables the use of this currency.
-
-For more information, as well as an immediately useable, binary version of
-the Crowdcoin Core software, see https://www.crowdcoin.org/get-crowdcoin/.
 
 
 License
 -------
 
-Crowdcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+ProtonCash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
-The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/crowdcoinpay/crowdcoin/tags) are created to indicate new official,
-stable release versions of Crowdcoin Core.
+The `master` branch is meant to be stable.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -61,17 +52,3 @@ Changes should be tested by somebody other than the developer who wrote the
 code. This is especially important for large or high-risk changes. It is useful
 to add a test plan to the pull request description if testing the changes is
 not straightforward.
-
-Translations
-------------
-
-Changes to translations as well as new translations can be submitted to
-[Crowdcoin Core's Transifex page](https://www.transifex.com/projects/p/crowdcoin/).
-
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
-
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
-
-Translators should also follow the [forum](https://www.crowdcoin.org/forum/topic/crowdcoin-worldwide-collaboration.88/).
