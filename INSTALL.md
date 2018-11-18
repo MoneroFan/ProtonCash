@@ -1,5 +1,5 @@
-Building Crowdcoin
+Building ProtonCash
 =============
 
 See doc/build-*.md for instructions on building the various
-elements of the Crowdcoin Core reference implementation of Crowdcoin.
+elements of the ProtonCash Core reference implementation of ProtonCash.
