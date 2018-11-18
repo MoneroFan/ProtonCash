@@ -7,17 +7,17 @@ define(_CLIENT_VERSION_BUILD, 3)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2018)
 define(_COPYRIGHT_HOLDERS,[The %s developers])
-define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[Crowdcoin Core]])
-AC_INIT([Crowdcoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/crowdcoinpay/crowdcoin/issues],[crowdcoinbrain],[https://crowdcoin.org/])
+define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[ProtonCash Core]])
+AC_INIT([ProtonCash Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/MoneroFan/ProtonCash/issues],[protoncashbrain],[https://protoncash.org/])
 AC_CONFIG_SRCDIR([src/validation.cpp])
-AC_CONFIG_HEADERS([src/config/crowdcoin-config.h])
+AC_CONFIG_HEADERS([src/config/protoncash-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=crowdcoind
-BITCOIN_GUI_NAME=crowdcoin-qt
-BITCOIN_CLI_NAME=crowdcoin-cli
-BITCOIN_TX_NAME=crowdcoin-tx
+BITCOIN_DAEMON_NAME=protoncashd
+BITCOIN_GUI_NAME=protoncash-qt
+BITCOIN_CLI_NAME=protoncash-cli
+BITCOIN_TX_NAME=protoncash-tx
 
 AC_CANONICAL_HOST
 
@@ -241,7 +241,7 @@ CPPFLAGS="$CPPFLAGS -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS"
 
 AC_ARG_WITH([utils],
   [AS_HELP_STRING([--with-utils],
-  [build crowdcoin-cli crowdcoin-tx (default=yes)])],
+  [build protoncash-cli protoncash-tx (default=yes)])],
   [build_bitcoin_utils=$withval],
   [build_bitcoin_utils=yes])
 
@@ -253,7 +253,7 @@ AC_ARG_WITH([libs],
 
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
-  [build crowdcoind daemon (default=yes)])],
+  [build protoncashd daemon (default=yes)])],
   [build_bitcoind=$withval],
   [build_bitcoind=yes])
 
